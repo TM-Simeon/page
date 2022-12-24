@@ -1,0 +1,21 @@
+#stylelogin{
+	background-image: url('../images/homepage_african2.jpg');
+	/*opacity: 0.5;*/
+	margin-top: 50px;
+}
+.data{
+	margin: 150px;
+	background: grey;
+	width: 40%;
+	text-align: center;
+}
+#label{
+	width: 150px;
+	display: inline-block;
+}
+#input, #pass1, #pass2{
+	width: 50%;
+}
+#inputemail{
+	width: 50%;
+}

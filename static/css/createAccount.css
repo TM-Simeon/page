@@ -1,0 +1,17 @@
+#stylecreate{
+	background-image: url('../images/homepage_african2.jpg');
+	margin-top: 50px;
+}
+.data{
+	margin: 150px;
+	background: grey;
+	width: 40%;
+	text-align: center;
+}
+#label{
+	width: 150px;
+	display: inline-block;
+}
+#input, #pass1, #pass2{
+	width: 50%;
+}
