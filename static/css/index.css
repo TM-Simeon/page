@@ -7,7 +7,9 @@
 	float: left;
 	text-align: left;
 	margin-left: 5px;
-	overflow-y: scroll;
+	text-align: center;
+	vertical-align: middle;
+	/*overflow-y: scroll;*/
 }
 .headlines:hover {
 	/*overflow-y: scroll;*/
@@ -15,15 +17,18 @@
 .details{
 	display: inline-block;
 	width: 60%;
-	/*background-image: url('../background.png');*/
+	background-image: url('../../background.png');
+	/*style="background-image: url('../background.png'); */
+	color: white;"
 	overflow-y: hidden;
 	height: 400px;
 	text-align: left;
 	/*background: orange;*/
 
 }
-.details:hover{
-	/*overflow-y: scroll;*/
+.details *{
+	margin-left: 30px;
+	margin-right: 40px;
 }
 
 h1.headlines{
