@@ -19,7 +19,7 @@ body{
 	display: inline-block;
 }
 .header{
-	background: orange;
+	background:  #ffcc99;
 }
 .dropdown{
 	display: inline-block;
@@ -53,7 +53,7 @@ body{
 	padding: 5px;
 }
 .footer{
-	background: orange;
+	background:  #ffcc99;
 	width: 100%;
 	min-height: 150px;
 	margin-top: auto;
