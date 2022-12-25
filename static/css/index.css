@@ -53,3 +53,55 @@ h1.headlines{
 	/*height: 30px;*/
 	background: orange;
 }
+.circle1{
+	width: 30%;
+	/*border: 2px solid green;*/
+	display: inline-block;
+	/*border-radius: 50%;*/
+	min-height: 300px;
+	/*align-self: center;*/
+	margin-top: 50px;
+	/*float: left;*/
+	/*background: url('../images/login.png');*/
+}
+
+.circle2{
+	width: 30%;
+	/*border: 2px solid green;*/
+	display: inline-block;
+	/*border-radius: 50%;*/
+	min-height: 300px;
+	/*align-self: center;*/
+	margin-top: 50px;
+	/*float: left;*/
+	/*background: url('../images/dashboard.png');*/
+}
+.circle3{
+	width: 30%;
+	/*border: 2px solid green;*/
+	display: inline-block;
+	/*border-radius: 50%;*/
+	min-height: 300px;
+	/*align-self: center;*/
+	margin-top: 50px;
+	/*float: left;*/
+	/*background: url('../images/team.png');*/
+}
+#feature{
+	text-align: center;
+}
+.circle1 img{
+	width: 100%;
+	height: 100%;
+	float: left;
+}
+.circle2 img{
+	width: 100%;
+	height: 100%;
+	float: left;
+}
+.circle3 img{
+	width: 100%;
+	height: 100%;
+	float: left;
+}
