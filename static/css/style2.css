@@ -1,0 +1,61 @@
+input{
+	/*background: gray;*/
+	margin: 10px;
+}
+body{
+	min-height: 150vh;
+	display: flex;
+	flex-direction: column;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+.space{
+	display: inline-block;
+	width: 65%;
+}
+.aside{
+	display: inline-block;
+}
+.header{
+	background:  #ffcc99;
+}
+.dropdown{
+	display: inline-block;
+	position: relative;
+}
+.dropdown-content{
+	display: none;
+	position: absolute;
+	width: 100%;
+	overflow: auto;
+	/*box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);*/
+}
+.dropdown:hover .dropdown-content{
+	display: block;
+}
+.courseSelectDiv{
+	/*background: green;*/
+	min-height: 150px;
+	text-align: center;
+}
+#courseSelect{
+	margin-top: 50px;
+	height: 30px;
+	width: 150px;
+	border: 3px solid orange;
+	text-align: center;
+}
+.footersection{
+	text-align: left;
+	/*margin-left: 40%;*/
+	padding: 5px;
+}
+.footer{
+	background:  #ffcc99;
+	width: 100%;
+	min-height: 150px;
+	margin-top: auto;
+	text-align: center;
+}

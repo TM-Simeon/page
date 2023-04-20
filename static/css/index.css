@@ -1,117 +1,83 @@
-.headlines{
-	display: inline-block;
-	width: 30%;
-	/*border: 1px solid green;*/
-	height: 400px;
-	overflow-y: hidden;
-	float: left;
-	text-align: left;
-	margin-left: 5px;
-	text-align: center;
-	vertical-align: middle;
-	/*overflow-y: scroll;*/
+#section1 {
+	background-image: url("../images/index.png");
+	min-height: 500px;
+	box-shadow: 10px 10px 5px lightblue;
 }
-.headlines:hover {
-	/*overflow-y: scroll;*/
-}
-.details{
+#innertext {
+	padding: 150px 0px 0px 200px;
 	display: inline-block;
-	width: 60%;
-	background-image: url('../../background.png');
-	/*style="background-image: url('../background.png'); */
+	max-width: 650px;
+
+}
+#innertext button {
+	margin-top: 45px;
+	background: blue;
 	color: white;
-	overflow-y: hidden;
-	height: 400px;
-	text-align: left;
-	/*background: orange;*/
+}
+#section2 {
+	display: flex;
+}
+#innerblock {
+	display: inline-block;
+	max-width: 350px;
+	background: #22438C;
+	border-radius: 0px 25px 0px 25px;
+	margin: 15px 0px 0px 150px;
+	color: white;
 
 }
-.details *{
-	margin-left: 30px;
-	margin-right: 40px;
-}
+#innerlearn {
+	display: inline-block;
+	margin: 40px 0px 0px 150px;
+	/*text-align: center;*/
 
-h1.headlines{
-	margin-left: 5px;
 }
-.grid-container{
+#innerlearn h2, p {
+	display: inline-block;
+	margin-bottom: 10px;
+}
+#innerlearn h2:nth-of-type(2) {
+	margin-left: 25px;
+}
+#innerlearn h2:last-of-type {
+	margin-left: 50px;
+}
+#innerlearn h1 {
+	text-align: center;
+	color: blueviolet;
+	margin-bottom: 15px;
+}
+#section3 {
+	display: flex;
+}
+#innerexplanation {
+	display: inline-block;
+	max-width: 350px;
+	/*background: blue;*/
+	min-height: 200px;
+	/*border-radius: 0px 25px 0px 25px;*/
+	margin: 15px 0px 0px 150px;
+	/*text-align: center;*/
+
+}
+#innerexplanation h2 {
+	margin-top: 45px;
 	text-align: center;
 }
-#aboutteam{
-	text-align: center;
-	margin-bottom: 40px;
-
+#innerexplanation button {
+	margin-left: 50px;
+	margin-top: 20px;
 }
-#aboutteam p{
-	width: 80%;
-	margin: auto;
-	background: #d9d9d9;
-}
-.team{
-	height: 100px;
-	width: 15%;
+#innerpicture {
+	height: 200px;
+	width: 300px;
 	display: inline-block;
-	border: 4px solid #ffcc99;
-	margin: 20px;
+	border: 2px solid blue;
+	margin: 15px 0px 0px 450px;
+	border-radius: 0% 30% 0% 30%;
+	background-image: url("../images/student.png");
+	background-size: 500px;
+	background-repeat: no-repeat;
 }
-.basedesign{
-	/*height: 30px;*/
-	background:  #ffcc99;
-}
-.circle1{
-	width: 30%;
-	/*border: 2px solid green;*/
-	display: inline-block;
-	/*border-radius: 50%;*/
-	min-height: 300px;
-	/*align-self: center;*/
-	margin-top: 50px;
-	/*float: left;*/
-	/*background: url('../images/login.png');*/
-	/*background: orange;*/
-
-}
-
-.circle2{
-	width: 30%;
-	/*border: 2px solid green;*/
-	display: inline-block;
-	/*border-radius: 50%;*/
-	min-height: 300px;
-	/*align-self: center;*/
-	margin-top: 50px;
-	float: left;
-	/*background: url('../images/dashboard.png');*/
-	/*background: orange;*/
-
-}
-.circle3{
-	width: 30%;
-	/*border: 2px solid green;*/
-	display: inline-block;
-	/*border-radius: 50%;*/
-	min-height: 300px;
-	/*align-self: center;*/
-	margin-top: 50px;
-	float: right;
-	/*background: url('../images/team.png');*/
-	/*background: orange;*/
-}
-#feature{
-	text-align: center;
-}
-.circle1 img{
-	width: 100%;
-	height: 100%;
-	float: left;
-}
-.circle2 img{
-	width: 100%;
-	height: 100%;
-	float: left;
-}
-.circle3 img{
-	width: 100%;
-	height: 100%;
-	float: left;
-}
+/*justakinyi1@gmail.com
+https://chat.whatsapp.com/J7EYfflFfP20VKfSrCvNjy*/
